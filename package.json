@@ -21,8 +21,8 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node --max_old_space_size=2560 react-scripts start",
+    "build": "node --max_old_space_size=2560 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,9 +47,9 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo": "^2.30.2"
   },
-  "engines":{
-    "npm":"8.5.0"
-   },
+  "engines": {
+    "npm": "8.5.0"
+  },
   "main": "src/index.js",
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT"
